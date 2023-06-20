@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Camp Assignment 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="header"><button>button</button><button>button</button><a href="test">test link</a></nav>
+    <div class="image">
+        <div class="image-overlay">
+
+            
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description" class="heading">Please fill in the survey below:</p>
+    <Form id="survey-form" action="/code">
+        <Div>
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" required placeholder="Name">
+        </Div>
+        <div>
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" required placeholder="Email">
+        </div>
+        <div>
+        <label for="number" id="number-label">Age</label>
+        <input type="number" id="number" min="5" max="99" required placeholder="5">
+        </div>
+        <div>
+        <label for="dropdown">Which best describes your current role?</label>
+        <select name="role" id="dropdown" placeholder="Select your Role">
+            <option value="Student">Student</option>
+            <option value="full-time">Full Time</option>
+            <option value="part-time">Part Time</option>
+            <option value="Self">Self Emploied</option>
+            <option value="Other">Other</option>
+        </select>
+        </div>
+        <div>
+        <p>Would you reccomend us?</p>
+        <input type="radio" name="recomend" id="yes" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="recomend" id="no" value="no">
+        <label for="no">No</label>
+        <input type="radio" name="recomend" id="maybe" value="maybe">
+        <label for="maybe">Maybe</label>
+        </div>
+        <div>
+        <p>What would you like to see improve? (check all that apply)</p>
+        <input type="checkbox" id="front" value="front">
+        <label for="front">Front-end Projects</label>
+        <input type="checkbox" id="back" value="back">
+        <label for="back">Back-end Projects</label>
+        <input type="checkbox" id="data" value="data">
+        <label for="data">Data Visualisation</label>
+        <input type="checkbox" id="challenge" value="challenge">
+        <label for="challenge">Challenges</label>
+        </div>
+        <div>
+        <label for="comment">Add your comments</label><br>
+        <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+        </div>
+        <div>
+        <input type="submit" id="submit">
+        </div>
+    </Form>
+    </div>
+    </div>
+</body>
+</html>
